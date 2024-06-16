@@ -1,0 +1,65 @@
+This game will be a superhero themed memory game. The object of the game will be to compete against a computer to see who has the highest number of matches at the end. The game will tally up the score and will display a winner at the end. 
+
+The background theme will be darker and the square in the middle of the page will be a grid. When a user clicks on the grid a superhero or supervillian will appear. If a player gets the match correct, they will continue the turn until they have a pair that is not matching. Once they have a mismatched pair, they will forfeit their turn.
+
+I would like to add some animation that can slide the pannels or add some effects when the pannels turn. If I have the time, I would like to add background music and some sound effects when the player clicks on the buttons. The game board will need to reshuffle after every game as well. 
+
+// Define a constants
+
+
+// Define a variable for the user's choice
+// Define a variable for the computer's choice
+// Define a variable for the game message
+// Define a variable for user score
+
+
+
+
+// Select the results display element
+
+// Define event listeners
+
+// Add an event listener to the squares
+// Add an event listener to the images
+// Add an event listener for the mouse clicks
+// Add an event listener to turn on/turn off music
+
+
+
+
+
+// Using the event listeners set up, assign the user's choice to the variable for the user's choice
+// Using a random number generator, assign the computer's choice to the variable for the computer's choice
+// Invoke get player choice function from play function
+// Invoke get computer choice function from play function
+
+
+// Render the game message to the DOM
+
+
+
+
+// Game Play
+
+    // Compare the user's choice to the computer's choice
+        // IF the user's choices are matching. Keep user's turn
+    // THEN add one score tally and hide matching cards
+        // ELSE IF the user's choices do not match 
+     // THEN hide cards and the computers turn
+        // IF the computers choices are matching. Keep computers turn
+    // THEN add one score tally and hide matching cards
+        // ELSE IF the user's choices do not match 
+  // THEN hide card and the user's turn 
+        // ELSE
+        // if there are no more spaces 
+    //THEN count spaces and determine winner
+
+
+// Render the game message to the DOM
+
+
+
+// Select the play again button element and add an event listener. On click:
+    // Reset the user's choice to nothing
+    // Reset the computer's choice to nothing
+    // Reset the game message to nothing
